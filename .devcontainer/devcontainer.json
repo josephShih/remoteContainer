@@ -1,0 +1,12 @@
+{
+  "name": "remoteContainer",
+  "dockerComposeFile":"docker-compose.yml",
+  "service": "backend",
+  "extensions": [
+    "dbaeumer.vscode-eslint"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "workspaceFolder": "/usr/src/app"
+}
